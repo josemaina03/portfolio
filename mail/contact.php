@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $message = sanitize_input($_POST['message']);
 
     // Set recipient and email subject
-    $to = "abdellahelghoulamdev@gmail.com"; // Change this email to your own
+    $to = "josephmuhia257@gmail.com"; // Change this email to your own
     $subject = "$m_subject: $name";
 
     // Prepare the email body
